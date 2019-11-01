@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>attendeeRating</key>
+		<integer>1</integer>
+		<key>thumbnail</key>
+		<string>chill_brasil_mixer</string>
+		<key>location</key>
+		<string>Current Balance: £8974.98</string>
+		<key>detail</key>
+		<string>660127  98634581</string>
+		<key>name</key>
+		<string>Current Account</string>
+		<key>identifier</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>Credit Card</string>
+		<key>detail</key>
+		<string>660127  876123476</string>
+		<key>location</key>
+		<string>Current Balance: £876.54</string>
+		<key>thumbnail</key>
+		<string>devgarage_hangout</string>
+		<key>attendeeRating</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>attendeeRating</key>
+		<integer>3</integer>
+		<key>thumbnail</key>
+		<string>rwdevcon_social</string>
+		<key>location</key>
+		<string>£ 1500</string>
+		<key>detail</key>
+		<string>£1500</string>
+		<key>name</key>
+		<string>Overdraft</string>
+		<key>identifier</key>
+		<integer>3</integer>
+	</dict>
+</array>
+</plist>

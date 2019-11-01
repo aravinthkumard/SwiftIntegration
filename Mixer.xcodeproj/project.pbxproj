@@ -3,16 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200C3E694CED8B3247897B8C /* Pods_MixerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AEBE804D83577A3942DECF /* Pods_MixerTests.framework */; };
+		9246C1C9398794FAEAE97FF8 /* Pods_Mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7368055A2EE7A90192301FF6 /* Pods_Mixer.framework */; };
+		EF100DCC236B386300B0CF6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF100DC8236B386300B0CF6D /* Main.storyboard */; };
+		EF100DCD236B386300B0CF6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF100DCA236B386300B0CF6D /* LaunchScreen.storyboard */; };
 		EF172C902361E81F00EF632D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF172C8F2361E81F00EF632D /* AppDelegate.swift */; };
-		EF172C922361E81F00EF632D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF172C912361E81F00EF632D /* ViewController.swift */; };
-		EF172C952361E81F00EF632D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF172C932361E81F00EF632D /* Main.storyboard */; };
+		EF172C922361E81F00EF632D /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF172C912361E81F00EF632D /* DashboardViewController.swift */; };
 		EF172C972361E81F00EF632D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF172C962361E81F00EF632D /* Assets.xcassets */; };
-		EF172C9A2361E81F00EF632D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF172C982361E81F00EF632D /* LaunchScreen.storyboard */; };
 		EF172CA52361E81F00EF632D /* MixerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF172CA42361E81F00EF632D /* MixerTests.swift */; };
+		EF172CB02361E85B00EF632D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF172CAF2361E85B00EF632D /* AccountViewController.swift */; };
+		EF172CB22361E87B00EF632D /* ReactModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF172CB12361E87B00EF632D /* ReactModuleViewController.swift */; };
+		EF172CB42361E89700EF632D /* MixerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF172CB32361E89700EF632D /* MixerCell.swift */; };
+		EF172CB62361E8B700EF632D /* Mixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF172CB52361E8B700EF632D /* Mixer.swift */; };
+		EF172CB82361E8D400EF632D /* ReactModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF172CB72361E8D400EF632D /* ReactModule.swift */; };
+		EF172CBA2361E8F000EF632D /* ReactViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF172CB92361E8F000EF632D /* ReactViewManager.swift */; };
+		EF172CBC2361E92900EF632D /* ReactViewManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = EF172CBB2361E92900EF632D /* ReactViewManagerBridge.m */; };
+		EF9E23AF23685CF500D55A86 /* Mixers.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF9E23AE23685CF500D55A86 /* Mixers.plist */; };
+		EF9E24162368A55600D55A86 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = EF9E24152368A55600D55A86 /* main.jsbundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +37,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF172C8C2361E81F00EF632D /* Mixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DB1C429CE15C8895DB2CE1 /* Pods-Mixer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mixer.debug.xcconfig"; path = "Target Support Files/Pods-Mixer/Pods-Mixer.debug.xcconfig"; sourceTree = "<group>"; };
+		5DE3A1525E260A4758B72D24 /* Pods-Mixer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mixer.release.xcconfig"; path = "Target Support Files/Pods-Mixer/Pods-Mixer.release.xcconfig"; sourceTree = "<group>"; };
+		7368055A2EE7A90192301FF6 /* Pods_Mixer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mixer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7486DCC7F894407C28727F9E /* Pods-MixerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixerTests.debug.xcconfig"; path = "Target Support Files/Pods-MixerTests/Pods-MixerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9AEBE804D83577A3942DECF /* Pods_MixerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MixerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC4406E2B0695887DD686BE /* Pods-MixerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixerTests.release.xcconfig"; path = "Target Support Files/Pods-MixerTests/Pods-MixerTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF100DC9236B386300B0CF6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF100DCB236B386300B0CF6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF172C8C2361E81F00EF632D /* RNIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF172C8F2361E81F00EF632D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF172C912361E81F00EF632D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF172C942361E81F00EF632D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF172C912361E81F00EF632D /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		EF172C962361E81F00EF632D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF172C992361E81F00EF632D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF172C9B2361E81F00EF632D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF172CA02361E81F00EF632D /* MixerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF172CA42361E81F00EF632D /* MixerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerTests.swift; sourceTree = "<group>"; };
 		EF172CA62361E81F00EF632D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF172CAF2361E85B00EF632D /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		EF172CB12361E87B00EF632D /* ReactModuleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactModuleViewController.swift; sourceTree = "<group>"; };
+		EF172CB32361E89700EF632D /* MixerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixerCell.swift; sourceTree = "<group>"; };
+		EF172CB52361E8B700EF632D /* Mixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mixer.swift; sourceTree = "<group>"; };
+		EF172CB72361E8D400EF632D /* ReactModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactModule.swift; sourceTree = "<group>"; };
+		EF172CB92361E8F000EF632D /* ReactViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactViewManager.swift; sourceTree = "<group>"; };
+		EF172CBB2361E92900EF632D /* ReactViewManagerBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactViewManagerBridge.m; sourceTree = "<group>"; };
+		EF9E23AE23685CF500D55A86 /* Mixers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Mixers.plist; sourceTree = "<group>"; };
+		EF9E24152368A55600D55A86 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = main.jsbundle; path = ../../RNApp/main.jsbundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9246C1C9398794FAEAE97FF8 /* Pods_Mixer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,25 +77,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200C3E694CED8B3247897B8C /* Pods_MixerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4679FAFFF79404FF114A96C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7368055A2EE7A90192301FF6 /* Pods_Mixer.framework */,
+				C9AEBE804D83577A3942DECF /* Pods_MixerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC550EDF265D923C47A6EA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19DB1C429CE15C8895DB2CE1 /* Pods-Mixer.debug.xcconfig */,
+				5DE3A1525E260A4758B72D24 /* Pods-Mixer.release.xcconfig */,
+				7486DCC7F894407C28727F9E /* Pods-MixerTests.debug.xcconfig */,
+				CFC4406E2B0695887DD686BE /* Pods-MixerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EF172C832361E81F00EF632D = {
 			isa = PBXGroup;
 			children = (
 				EF172C8E2361E81F00EF632D /* Mixer */,
 				EF172CA32361E81F00EF632D /* MixerTests */,
 				EF172C8D2361E81F00EF632D /* Products */,
+				DDC550EDF265D923C47A6EA2 /* Pods */,
+				4679FAFFF79404FF114A96C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		EF172C8D2361E81F00EF632D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF172C8C2361E81F00EF632D /* Mixer.app */,
+				EF172C8C2361E81F00EF632D /* RNIntegration.app */,
 				EF172CA02361E81F00EF632D /* MixerTests.xctest */,
 			);
 			name = Products;
@@ -77,12 +127,21 @@
 		EF172C8E2361E81F00EF632D /* Mixer */ = {
 			isa = PBXGroup;
 			children = (
+				EF100DCA236B386300B0CF6D /* LaunchScreen.storyboard */,
+				EF100DC8236B386300B0CF6D /* Main.storyboard */,
+				EF9E24152368A55600D55A86 /* main.jsbundle */,
 				EF172C8F2361E81F00EF632D /* AppDelegate.swift */,
-				EF172C912361E81F00EF632D /* ViewController.swift */,
-				EF172C932361E81F00EF632D /* Main.storyboard */,
+				EF172C912361E81F00EF632D /* DashboardViewController.swift */,
 				EF172C962361E81F00EF632D /* Assets.xcassets */,
-				EF172C982361E81F00EF632D /* LaunchScreen.storyboard */,
 				EF172C9B2361E81F00EF632D /* Info.plist */,
+				EF172CAF2361E85B00EF632D /* AccountViewController.swift */,
+				EF172CB12361E87B00EF632D /* ReactModuleViewController.swift */,
+				EF172CB32361E89700EF632D /* MixerCell.swift */,
+				EF172CB52361E8B700EF632D /* Mixer.swift */,
+				EF172CB72361E8D400EF632D /* ReactModule.swift */,
+				EF172CB92361E8F000EF632D /* ReactViewManager.swift */,
+				EF172CBB2361E92900EF632D /* ReactViewManagerBridge.m */,
+				EF9E23AE23685CF500D55A86 /* Mixers.plist */,
 			);
 			path = Mixer;
 			sourceTree = "<group>";
@@ -103,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF172CA92361E81F00EF632D /* Build configuration list for PBXNativeTarget "Mixer" */;
 			buildPhases = (
+				B6352F366748034C967BFEE0 /* [CP] Check Pods Manifest.lock */,
 				EF172C882361E81F00EF632D /* Sources */,
 				EF172C892361E81F00EF632D /* Frameworks */,
 				EF172C8A2361E81F00EF632D /* Resources */,
+				70098941A67F0731CFB2BA8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,13 +174,14 @@
 			);
 			name = Mixer;
 			productName = Mixer;
-			productReference = EF172C8C2361E81F00EF632D /* Mixer.app */;
+			productReference = EF172C8C2361E81F00EF632D /* RNIntegration.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EF172C9F2361E81F00EF632D /* MixerTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF172CAC2361E81F00EF632D /* Build configuration list for PBXNativeTarget "MixerTests" */;
 			buildPhases = (
+				438871902FAADF6CD8EADB50 /* [CP] Check Pods Manifest.lock */,
 				EF172C9C2361E81F00EF632D /* Sources */,
 				EF172C9D2361E81F00EF632D /* Frameworks */,
 				EF172C9E2361E81F00EF632D /* Resources */,
@@ -146,6 +208,7 @@
 				TargetAttributes = {
 					EF172C8B2361E81F00EF632D = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					EF172C9F2361E81F00EF632D = {
 						CreatedOnToolsVersion = 10.3;
@@ -177,9 +240,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF172C9A2361E81F00EF632D /* LaunchScreen.storyboard in Resources */,
 				EF172C972361E81F00EF632D /* Assets.xcassets in Resources */,
-				EF172C952361E81F00EF632D /* Main.storyboard in Resources */,
+				EF9E24162368A55600D55A86 /* main.jsbundle in Resources */,
+				EF9E23AF23685CF500D55A86 /* Mixers.plist in Resources */,
+				EF100DCD236B386300B0CF6D /* LaunchScreen.storyboard in Resources */,
+				EF100DCC236B386300B0CF6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +257,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		438871902FAADF6CD8EADB50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MixerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70098941A67F0731CFB2BA8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mixer/Pods-Mixer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mixer/Pods-Mixer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mixer/Pods-Mixer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6352F366748034C967BFEE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mixer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF172C882361E81F00EF632D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF172C922361E81F00EF632D /* ViewController.swift in Sources */,
+				EF172C922361E81F00EF632D /* DashboardViewController.swift in Sources */,
+				EF172CB22361E87B00EF632D /* ReactModuleViewController.swift in Sources */,
+				EF172CBA2361E8F000EF632D /* ReactViewManager.swift in Sources */,
+				EF172CB42361E89700EF632D /* MixerCell.swift in Sources */,
+				EF172CB62361E8B700EF632D /* Mixer.swift in Sources */,
+				EF172CB82361E8D400EF632D /* ReactModule.swift in Sources */,
 				EF172C902361E81F00EF632D /* AppDelegate.swift in Sources */,
+				EF172CB02361E85B00EF632D /* AccountViewController.swift in Sources */,
+				EF172CBC2361E92900EF632D /* ReactViewManagerBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,18 +357,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF172C932361E81F00EF632D /* Main.storyboard */ = {
+		EF100DC8236B386300B0CF6D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF172C942361E81F00EF632D /* Base */,
+				EF100DC9236B386300B0CF6D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EF172C982361E81F00EF632D /* LaunchScreen.storyboard */ = {
+		EF100DCA236B386300B0CF6D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF172C992361E81F00EF632D /* Base */,
+				EF100DCB236B386300B0CF6D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -358,8 +494,10 @@
 		};
 		EF172CAA2361E81F00EF632D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DB1C429CE15C8895DB2CE1 /* Pods-Mixer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Mixer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -367,7 +505,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Mixer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RNIntegration;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -375,8 +514,10 @@
 		};
 		EF172CAB2361E81F00EF632D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE3A1525E260A4758B72D24 /* Pods-Mixer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Mixer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -384,7 +525,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Mixer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RNIntegration;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,6 +533,7 @@
 		};
 		EF172CAD2361E81F00EF632D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7486DCC7F894407C28727F9E /* Pods-MixerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +554,7 @@
 		};
 		EF172CAE2361E81F00EF632D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC4406E2B0695887DD686BE /* Pods-MixerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
